@@ -14,6 +14,8 @@
 		A0BCBDA81CE540E700302FE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0BCBDA61CE540E700302FE3 /* LaunchScreen.storyboard */; };
 		A0BCBDB31CE540E700302FE3 /* SplitViewController_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BCBDB21CE540E700302FE3 /* SplitViewController_2Tests.swift */; };
 		A0BCBDBE1CE540E700302FE3 /* SplitViewController_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BCBDBD1CE540E700302FE3 /* SplitViewController_2UITests.swift */; };
+		A0C2D17D1D07560F00A0D492 /* SelectColorTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C2D17C1D07560F00A0D492 /* SelectColorTableViewController.swift */; };
+		A0C2D17F1D07562D00A0D492 /* ColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C2D17E1D07562D00A0D492 /* ColorViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		A0BCBDB91CE540E700302FE3 /* SplitViewController_2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SplitViewController_2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0BCBDBD1CE540E700302FE3 /* SplitViewController_2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitViewController_2UITests.swift; sourceTree = "<group>"; };
 		A0BCBDBF1CE540E700302FE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0C2D17C1D07560F00A0D492 /* SelectColorTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectColorTableViewController.swift; sourceTree = "<group>"; };
+		A0C2D17E1D07562D00A0D492 /* ColorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				A0BCBD9D1CE540E700302FE3 /* AppDelegate.swift */,
 				A0BCBD9F1CE540E700302FE3 /* ViewController.swift */,
 				A0BCBDA11CE540E700302FE3 /* Main.storyboard */,
+				A0C2D17E1D07562D00A0D492 /* ColorViewController.swift */,
+				A0C2D17C1D07560F00A0D492 /* SelectColorTableViewController.swift */,
 				A0BCBDA41CE540E700302FE3 /* Assets.xcassets */,
 				A0BCBDA61CE540E700302FE3 /* LaunchScreen.storyboard */,
 				A0BCBDA91CE540E700302FE3 /* Info.plist */,
@@ -258,6 +264,8 @@
 			files = (
 				A0BCBDA01CE540E700302FE3 /* ViewController.swift in Sources */,
 				A0BCBD9E1CE540E700302FE3 /* AppDelegate.swift in Sources */,
+				A0C2D17F1D07562D00A0D492 /* ColorViewController.swift in Sources */,
+				A0C2D17D1D07560F00A0D492 /* SelectColorTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +492,7 @@
 				A0BCBDC41CE540E700302FE3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A0BCBDC51CE540E700302FE3 /* Build configuration list for PBXNativeTarget "SplitViewController_2Tests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +501,7 @@
 				A0BCBDC71CE540E700302FE3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A0BCBDC81CE540E700302FE3 /* Build configuration list for PBXNativeTarget "SplitViewController_2UITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +510,7 @@
 				A0BCBDCA1CE540E700302FE3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
